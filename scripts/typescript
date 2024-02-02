@@ -1,0 +1,20 @@
+Script started on Tue Jan 30 22:29:24 2024
+[?1034hbash: /ssh-agent.env: Read-only file system
+grep: /etc/os-release: No such file or directory
+[?1034h[?1034hbash: flux: command not found
+[?1034hbash: talosctl: command not found
+[?1034h[?1034hbash: /Users/jamestench/.privaterc: No such file or directory
+[?1034h[?1034hbash: kubectl-cnp: command not found
+[?1034h[?1034hbash: cilium: command not found
+[?1034h
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+bash: __git_ps1: command not found
+bash-3.2$ [?1034hce
+bash: ce: command not found
+bash: __git_ps1: command not found
+bash-3.2$ exit
+exit
+
+Script done on Tue Jan 30 22:29:33 2024
