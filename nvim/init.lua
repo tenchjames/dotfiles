@@ -1,6 +1,2 @@
-require("james.core.options")
-require("james.core.keymaps")
-require("james.core.colorscheme")
-
-require("james.lazy")
-
+-- bootstrap lazy.nvim, LazyVim and your plugins
+require("config.lazy")
