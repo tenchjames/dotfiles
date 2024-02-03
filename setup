@@ -54,11 +54,10 @@ ln -sf "$PWD/nvim" "$XDG_CONFIG_HOME"/nvim
 # Second Brain
 # This one's a little tricky because the path contains a space. It needs to be stored as an array,
 # and when called it needs to be quoted.
-# export SECOND_BRAIN=("/Users/mischa/Library/Mobile Documents/iCloud~md~obsidian/Documents/second-brain-01-07-23")
-export SECOND_BRAIN=("/Users/tenchjames/Library/Mobile Documents/iCloud~md~obsidian/Documents/MyBrain")
+export SECOND_BRAIN=("/Users/jamestench//Library/Mobile Documents/iCloud~md~obsidian/Documents/MyBrain")
 ln -sf "$SECOND_BRAIN" ~/brain
 #
 # iCloud
-# export ICLOUD=("/Users/tenchjames/Library/Mobile Documents/com~apple~CloudDocs")
+# export ICLOUD=("/Users/jamestench/Library/Mobile Documents/com~apple~CloudDocs")
 # ln -sf "$ICLOUD" ~/icloud
 
