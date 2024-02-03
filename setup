@@ -38,14 +38,11 @@ curl -L https://raw.githubusercontent.com/git/git/master/contrib/completion/git-
 
 # ln -s ./.amethyst.yml "$HOME"/.amethyst.yml
 # toto: config for iterm
-# ln -sf "$PWD/k9s/skin.yml" "$XDG_CONFIG_HOME"/k9s/skin.yml
 ln -sf "$PWD/.bash_profile" "$HOME"/.bash_profile
 ln -sf "$PWD/.bashrc" "$HOME"/.bashrc
 ln -sf "$PWD/.inputrc" "$HOME"/.inputrc
 ln -sf "$PWD/.tmux.conf" "$HOME"/.tmux.conf
 ln -sf "$PWD/nvim" "$XDG_CONFIG_HOME"/nvim
-# ln -sf "$PWD/skhdrc" "$XDG_CONFIG_HOME"/skhd/skhdrc
-
 
 # Second Brain
 # This one's a little tricky because the path contains a space. It needs to be stored as an array,
@@ -56,4 +53,3 @@ ln -sf "$SECOND_BRAIN" ~/brain
 # iCloud
 # export ICLOUD=("/Users/jamestench/Library/Mobile Documents/com~apple~CloudDocs")
 # ln -sf "$ICLOUD" ~/icloud
-
